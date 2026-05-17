@@ -4,7 +4,7 @@ import { PrismaService } from '../prisma/prisma.service';
 import { RolesGuard } from '../common/guards/roles.guard';
 import { Roles } from '../common/decorators/roles.decorator';
 import { Role } from '@prisma/client';
-import { Response } from 'express';
+import type { Response } from 'express';
 
 @Controller('admin')
 @UseGuards(AuthGuard('jwt'), RolesGuard)

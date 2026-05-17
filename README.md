@@ -58,4 +58,3 @@ An enterprise-grade internal Performance Management System (PMS) for goal settin
 4.  Deploy!
 
 ---
-Built with ❤️ by Antigravity

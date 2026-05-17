@@ -22,4 +22,4 @@ COPY --from=builder /app/prisma.config.ts ./prisma.config.ts
 
 EXPOSE 3001
 
-CMD ["npm", "run", "deploy:prod"]
+CMD ["node", "dist/main"]
